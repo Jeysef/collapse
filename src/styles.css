@@ -1,0 +1,19 @@
+.collapse {
+    overflow: hidden;
+}
+.collapse-enter {
+    height: 0;
+}
+
+.collapse-enter-active {
+    transition: var(--transition, "height 250ms cubic-bezier(0.4, 0, 0.2, 1)");
+}
+
+.collapse-exit-active {
+    height: 0;
+    transition: var(--transition, "height 250ms cubic-bezier(0.4, 0, 0.2, 1)");
+}
+
+.collapse-exit-done {
+    height: 0;
+}
